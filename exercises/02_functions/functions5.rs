@@ -6,10 +6,11 @@
 // I AM NOT DONE
 
 fn main() {
-    let answer = square(3);
-    println!("The square of 3 is {}", answer);
+    let question = 5;
+    let answer = square(question);
+    println!("The square of {} is {}", question, answer);
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num
 }
